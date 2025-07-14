@@ -1,0 +1,18 @@
+/* Menggunakan font kustom yang sudah diimpor */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;700&display=swap");
+
+.font-serif-display {
+  font-family: "Playfair Display", serif;
+}
+.font-sans-body {
+  font-family: "Inter", sans-serif;
+}
+/* Efek gradien pada tombol */
+.btn-gradient {
+  background-image: linear-gradient(to right, #c0a062, #d4b47a, #c0a062);
+  background-size: 200% auto;
+  transition: background-position 0.5s;
+}
+.btn-gradient:hover {
+  background-position: right center;
+}

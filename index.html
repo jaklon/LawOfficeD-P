@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firma Hukum Prima & Rekan - Solusi Hukum Profesional</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-50 text-gray-800 font-sans-body">
+    <!-- ===== HEADER / NAVIGASI ===== -->
+    <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
+      <div
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <a href="#" class="text-2xl font-bold text-gray-900 font-serif-display">
+          Prima & Rekan
+        </a>
+        <nav class="hidden md:flex items-center space-x-8">
+          <a
+            href="#layanan"
+            class="text-gray-600 hover:text-amber-700 transition duration-300"
+            >Layanan Hukum</a
+          >
+          <a
+            href="#tentang"
+            class="text-gray-600 hover:text-amber-700 transition duration-300"
+            >Tentang Kami</a
+          >
+          <a
+            href="#testimoni"
+            class="text-gray-600 hover:text-amber-700 transition duration-300"
+            >Testimoni</a
+          >
+          <a
+            href="#kontak"
+            class="text-white bg-gray-800 hover:bg-gray-900 px-6 py-2 rounded-full font-semibold transition duration-300 shadow-lg"
+          >
+            Konsultasi Gratis
+          </a>
+        </nav>
+        <button id="mobile-menu-button" class="md:hidden text-gray-800">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7"
+            />
+          </svg>
+        </button>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden">
+        <a
+          href="#layanan"
+          class="block px-6 py-3 text-sm text-gray-700 hover:bg-gray-100"
+          >Layanan Hukum</a
+        >
+        <a
+          href="#tentang"
+          class="block px-6 py-3 text-sm text-gray-700 hover:bg-gray-100"
+          >Tentang Kami</a
+        >
+        <a
+          href="#testimoni"
+          class="block px-6 py-3 text-sm text-gray-700 hover:bg-gray-100"
+          >Testimoni</a
+        >
+        <a
+          href="#kontak"
+          class="block px-6 py-3 text-sm text-gray-700 hover:bg-gray-100"
+          >Konsultasi Gratis</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <!-- ===== HERO SECTION ===== -->
+      <section
+        class="relative h-[80vh] min-h-[500px] flex items-center justify-center text-white text-center px-6"
+      >
+        <div class="absolute inset-0 bg-black/60 z-10"></div>
+        <img
+          src="https://images.unsplash.com/photo-1589216532372-1c2a36790049?q=80&w=2070&auto=format&fit=crop"
+          alt="Gedung pengadilan atau interior kantor hukum yang megah"
+          class="absolute inset-0 w-full h-full object-cover"
+        />
+        <div class="relative z-20 max-w-3xl">
+          <h1
+            class="text-4xl md:text-6xl font-serif-display leading-tight shadow-text"
+          >
+            Pembelaan Ahli, Strategi Tepat untuk Keadilan Anda
+          </h1>
+          <p class="mt-6 text-lg md:text-xl text-gray-200 max-w-2xl mx-auto">
+            Menghadapi masalah hukum bisa menjadi beban. Kami hadir untuk
+            memberikan kejelasan, kekuatan, dan solusi terbaik bagi Anda dan
+            bisnis Anda.
+          </p>
+          <a
+            href="#kontak"
+            class="mt-10 inline-block px-10 py-4 text-lg font-semibold text-gray-900 rounded-full btn-gradient shadow-xl transform hover:scale-105 transition-transform duration-300"
+          >
+            Jadwalkan Konsultasi
+          </a>
+        </div>
+      </section>
+
+      <!-- ===== MENGAPA MEMILIH KAMI ===== -->
+      <section class="py-20 bg-white">
+        <div class="container mx-auto px-6 text-center">
+          <h2 class="text-3xl md:text-4xl font-serif-display text-gray-900">
+            Mengapa Memilih Kami?
+          </h2>
+          <p class="mt-4 max-w-2xl mx-auto text-gray-600">
+            Pendekatan kami berpusat pada klien, didukung oleh pengalaman dan
+            integritas tinggi.
+          </p>
+          <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-12">
+            <!-- Poin 1: Berpengalaman -->
+            <div class="flex flex-col items-center">
+              <div class="bg-amber-100 p-5 rounded-full">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#854d0e"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-scale"
+                >
+                  <path d="m16 16 3-8 3 8c-2 1-4 1-6 0" />
+                  <path d="M2 16l3-8 3 8c-2 1-4 1-6 0" />
+                  <path d="M7 21h10" />
+                  <path d="M12 3v18" />
+                  <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+                </svg>
+              </div>
+              <h3 class="mt-6 text-xl font-semibold text-gray-800">
+                Berpengalaman
+              </h3>
+              <p class="mt-2 text-gray-600">
+                Tim kami memiliki rekam jejak keberhasilan dalam menangani
+                berbagai kasus hukum yang kompleks selama lebih dari satu
+                dekade.
+              </p>
+            </div>
+            <!-- Poin 2: Fokus Klien -->
+            <div class="flex flex-col items-center">
+              <div class="bg-amber-100 p-5 rounded-full">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#854d0e"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-users"
+                >
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </div>
+              <h3 class="mt-6 text-xl font-semibold text-gray-800">
+                Fokus pada Klien
+              </h3>
+              <p class="mt-2 text-gray-600">
+                Kami mendengarkan Anda. Setiap strategi yang kami bangun
+                dirancang khusus untuk mencapai tujuan dan melindungi
+                kepentingan Anda.
+              </p>
+            </div>
+            <!-- Poin 3: Integritas -->
+            <div class="flex flex-col items-center">
+              <div class="bg-amber-100 p-5 rounded-full">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#854d0e"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-shield-check"
+                >
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
+              </div>
+              <h3 class="mt-6 text-xl font-semibold text-gray-800">
+                Integritas Tinggi
+              </h3>
+              <p class="mt-2 text-gray-600">
+                Komunikasi yang jujur dan transparan adalah pondasi kami. Anda
+                akan selalu memahami setiap langkah dalam proses hukum Anda.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== LAYANAN HUKUM (PRACTICE AREAS) ===== -->
+      <section id="layanan" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+          <h2
+            class="text-3xl md:text-4xl font-serif-display text-center text-gray-900"
+          >
+            Area Praktik Kami
+          </h2>
+          <p class="mt-4 max-w-2xl mx-auto text-center text-gray-600">
+            Keahlian kami mencakup berbagai bidang untuk memberikan perlindungan
+            hukum yang komprehensif.
+          </p>
+          <div
+            class="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
+          >
+            <!-- Kartu Layanan -->
+            <div
+              class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
+            >
+              <h3 class="text-xl font-semibold text-gray-800">
+                Hukum Bisnis & Korporasi
+              </h3>
+              <p class="mt-3 text-gray-600">
+                Pendirian perusahaan, penyusunan kontrak, merger & akuisisi,
+                hingga penyelesaian sengketa bisnis.
+              </p>
+            </div>
+            <div
+              class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
+            >
+              <h3 class="text-xl font-semibold text-gray-800">
+                Hukum Keluarga
+              </h3>
+              <p class="mt-3 text-gray-600">
+                Menangani kasus perceraian, hak asuh anak, pembagian harta
+                gono-gini, dan penyusunan wasiat.
+              </p>
+            </div>
+            <div
+              class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
+            >
+              <h3 class="text-xl font-semibold text-gray-800">
+                Hukum Properti
+              </h3>
+              <p class="mt-3 text-gray-600">
+                Bantuan hukum untuk transaksi jual beli, sewa-menyewa, dan
+                penyelesaian sengketa properti.
+              </p>
+            </div>
+            <div
+              class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
+            >
+              <h3 class="text-xl font-semibold text-gray-800">Hukum Pidana</h3>
+              <p class="mt-3 text-gray-600">
+                Pendampingan hukum profesional di setiap tingkat pemeriksaan,
+                dari kepolisian hingga pengadilan.
+              </p>
+            </div>
+            <div
+              class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
+            >
+              <h3 class="text-xl font-semibold text-gray-800">
+                Kekayaan Intelektual
+              </h3>
+              <p class="mt-3 text-gray-600">
+                Pendaftaran dan perlindungan hak merek, paten, dan hak cipta
+                untuk melindungi inovasi Anda.
+              </p>
+            </div>
+            <div
+              class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
+            >
+              <h3 class="text-xl font-semibold text-gray-800">
+                Sengketa Litigasi
+              </h3>
+              <p class="mt-3 text-gray-600">
+                Mewakili klien dalam berbagai sengketa perdata dan komersial di
+                hadapan pengadilan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== TESTIMONI ===== -->
+      <section id="testimoni" class="py-20 bg-white">
+        <div class="container mx-auto px-6 max-w-4xl text-center">
+          <h2 class="text-3xl md:text-4xl font-serif-display text-gray-900">
+            Kepercayaan dari Klien Kami
+          </h2>
+          <div class="mt-12">
+            <blockquote class="text-xl md:text-2xl italic text-gray-700">
+              "Saya sangat berterima kasih atas bantuan Firma Hukum Prima &
+              Rekan. Mereka tidak hanya ahli dalam hukum, tetapi juga sangat
+              peduli dan membuat saya merasa tenang selama proses yang sulit.
+              Profesionalisme mereka luar biasa."
+            </blockquote>
+            <p class="mt-6 font-semibold text-gray-900">Andi Wijaya</p>
+            <p class="text-sm text-gray-500">Direktur, PT Maju Sejahtera</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== TENTANG KAMI / PROFIL SINGKAT ===== -->
+      <section id="tentang" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+          <div class="flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/3">
+              <img
+                src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=2070&auto=format&fit=crop"
+                alt="Foto profesional dari pengacara utama"
+                class="rounded-lg shadow-2xl w-full h-auto object-cover"
+              />
+            </div>
+            <div class="md:w-2/3">
+              <h2 class="text-3xl md:text-4xl font-serif-display text-gray-900">
+                Bertemu dengan Pendiri Kami
+              </h2>
+              <h3 class="text-xl font-semibold text-amber-700 mt-2">
+                Prima Adhitama, S.H., M.H.
+              </h3>
+              <p class="mt-4 text-gray-600 leading-relaxed">
+                Dengan pengalaman lebih dari 15 tahun, Prima Adhitama telah
+                mendedikasikan karirnya untuk memperjuangkan hak-hak klien.
+                Beliau percaya bahwa kunci keberhasilan hukum terletak pada
+                kombinasi antara pemahaman mendalam terhadap hukum, strategi
+                yang cermat, dan hubungan yang kuat dengan klien.
+              </p>
+              <p class="mt-4 text-gray-600 leading-relaxed">
+                "Keadilan bukan hanya sebuah konsep abstrak, melainkan hak yang
+                harus diperjuangkan. Misi kami adalah menjadi mitra terpercaya
+                Anda dalam memperjuangkan hak tersebut."
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== KONTAK & CTA FINAL ===== -->
+      <section id="kontak" class="py-24 bg-gray-800 text-white">
+        <div class="container mx-auto px-6 text-center">
+          <h2 class="text-3xl md:text-4xl font-serif-display">
+            Siap Mengambil Langkah Selanjutnya?
+          </h2>
+          <p class="mt-4 max-w-2xl mx-auto text-gray-300">
+            Jangan biarkan masalah hukum berlarut-larut. Hubungi kami hari ini
+            untuk konsultasi awal yang rahasia dan tanpa komitmen.
+          </p>
+          <div
+            class="mt-12 max-w-xl mx-auto bg-white p-8 rounded-lg shadow-lg text-left text-gray-800"
+          >
+            <form action="#" method="POST">
+              <div class="mb-4">
+                <label
+                  for="name"
+                  class="block text-sm font-medium text-gray-700 mb-1"
+                  >Nama Lengkap</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-amber-500 focus:border-amber-500"
+                  required
+                />
+              </div>
+              <div class="mb-4">
+                <label
+                  for="email"
+                  class="block text-sm font-medium text-gray-700 mb-1"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-amber-500 focus:border-amber-500"
+                  required
+                />
+              </div>
+              <div class="mb-6">
+                <label
+                  for="message"
+                  class="block text-sm font-medium text-gray-700 mb-1"
+                  >Deskripsi Singkat Kasus Anda</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-amber-500 focus:border-amber-500"
+                  required
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="w-full px-8 py-3 text-lg font-semibold text-white bg-gray-800 hover:bg-gray-900 rounded-md shadow-lg transition duration-300"
+              >
+                Kirim Permintaan Konsultasi
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="bg-gray-900 text-gray-300">
+      <div class="container mx-auto px-6 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div>
+            <h3 class="text-xl font-bold text-white font-serif-display">
+              Prima & Rekan
+            </h3>
+            <p class="mt-4 text-sm text-gray-400">
+              Memberikan solusi dan perlindungan hukum terpercaya sejak 2010.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold text-white">Tautan Cepat</h4>
+            <ul class="mt-4 space-y-2">
+              <li>
+                <a href="#layanan" class="hover:text-white transition-colors"
+                  >Layanan</a
+                >
+              </li>
+              <li>
+                <a href="#tentang" class="hover:text-white transition-colors"
+                  >Tentang Kami</a
+                >
+              </li>
+              <li>
+                <a href="#kontak" class="hover:text-white transition-colors"
+                  >Kontak</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold text-white">Info Kontak</h4>
+            <ul class="mt-4 space-y-2 text-sm">
+              <li class="flex items-start">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="flex-shrink-0 mr-2 mt-1"
+                >
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                <span
+                  >Jl. Jenderal Sudirman Kav. 52-53, Jakarta Selatan,
+                  Indonesia</span
+                >
+              </li>
+              <li class="flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="flex-shrink-0 mr-2"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                  />
+                </svg>
+                <span>(021) 123-4567</span>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold text-white">Jam Operasional</h4>
+            <p class="mt-4 text-sm">Senin - Jumat<br />09:00 - 17:00 WIB</p>
+          </div>
+        </div>
+        <div
+          class="mt-12 border-t border-gray-700 pt-8 text-center text-sm text-gray-500"
+        >
+          &copy; <span id="year"></span> Firma Hukum Prima & Rekan. Semua Hak
+          Cipta Dilindungi.
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Script untuk menu mobile
+      const mobileMenuButton = document.getElementById("mobile-menu-button");
+      const mobileMenu = document.getElementById("mobile-menu");
+      mobileMenuButton.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+
+      // Script untuk menutup menu mobile saat link di-klik
+      const mobileMenuLinks = mobileMenu.getElementsByTagName("a");
+      for (let link of mobileMenuLinks) {
+        link.addEventListener("click", () => {
+          mobileMenu.classList.add("hidden");
+        });
+      }
+
+      // Script untuk menampilkan tahun saat ini di footer
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
